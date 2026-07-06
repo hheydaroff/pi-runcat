@@ -51,6 +51,12 @@ Add this line to your ghostty config to map PUA codepoints to icomoon font
 font-codepoint-map = U+E900-U+E904=icomoon
 ```
 
+## Kitty
+Add this line to your `kitty.conf` to map PUA codepoints to icomoon font
+```bash
+symbol_map U+E900-U+E904 icomoon
+```
+
 Inspired by [runcat-text](https://github.com/bzglve/runcat-text)
 
 Security:
