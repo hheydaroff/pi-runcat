@@ -45,6 +45,11 @@ rm ~/Library/Fonts/runcat.ttf
 atsutil databases -removeUser
 ```
 
+## Ghostty
+Add this line to your ghostty config to map PUA codepoints to icomoon font
+```bash
+font-codepoint-map = U+E900-U+E904=icomoon
+```
 
 Inspired by [runcat-text](https://github.com/bzglve/runcat-text)
 
